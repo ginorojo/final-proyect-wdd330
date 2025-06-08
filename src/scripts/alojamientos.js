@@ -3,7 +3,7 @@ export function Alojamientos(listastays, contenedor) {
   contenedor.innerHTML = "";
   listastays.forEach(element => {
     contenedor.innerHTML += `
-    <a href="/productdetail.html?id=${element.id}">
+    <a href="productdetail.html?id=${element.id}">
      <div class="flex flex-col justify-center pb-[20px] gap-1 ">
             <div class="w-[337px] h-[223.26px]">
                 <img class="w-[337px] h-[223.26px] rounded-2xl" src="${element.photo}" alt="" />
