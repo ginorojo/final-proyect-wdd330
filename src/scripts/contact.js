@@ -14,21 +14,21 @@ export default function help() {
         <div id="socialMedia" class="pl-3 bg-white w-[120px] opacity-0 pointer-events-none space-y-1 p-2 rounded-md shadow-md
          transition-opacity duration-300 ease-in-out transform">
           <div class="flex items-center gap-1">
-            <img src="/src/images/icons/icons8-whatsapp.svg" alt="" class="w-4 h-4" />
+            <img src="/icons8-whatsapp.svg" alt="" class="w-4 h-4" />
             <a href="https://wa.me/56912345678" target="_blank"
               class="text-[13px] text-gray-700 hover:text-pink-600 hover:underline transition-colors duration-300">
               Whatsapp
             </a>
           </div>
           <div class="flex items-center gap-1">
-            <img src="/src/images/icons/icons8-messenger.svg" alt="" class="w-4 h-4" />
+            <img src="/icons8-messenger.svg" alt="" class="w-4 h-4" />
             <a href="https://m.me/tuusuario" target="_blank"
               class="text-[13px] text-gray-700 hover:text-pink-600 hover:underline transition-colors duration-300">
               Messenger
             </a>
           </div>
           <div class="flex items-center gap-1">
-            <img src="/src/images/icons/icons8-gmail (1).svg" alt="" class="w-4 h-4" />
+            <img src="/icons8-gmail (1).svg" alt="" class="w-4 h-4" />
             <a href="mailto:tuemail@gmail.com"
               class="text-[13px] text-gray-700 hover:text-pink-600 hover:underline transition-colors duration-300">
               Email
