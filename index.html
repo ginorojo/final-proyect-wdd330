@@ -16,9 +16,10 @@
       <a href="./index.html"><img src="./src/images/icons/logo-f7862584.svg" alt="" /></a>
     </div>
     <div class="flex justify-center item md:justify-end md:pr-[52px] ">
-      <input class="btnModal text-[10px] text-center flex w-32 h-10  rounded-l-lg shadow-sm/50 cursor-pointer" type="text"
-        placeholder="Add location">
-      <input class="btnModal shadow-sm/50 text-[10px] text-center w-32  h-10 cursor-pointer" type="text" placeholder="Add guest">
+      <input class="btnModal text-[10px] text-center flex w-32 h-10  rounded-l-lg shadow-sm/50 cursor-pointer"
+        type="text" placeholder="Add location">
+      <input class="btnModal shadow-sm/50 text-[10px] text-center w-32  h-10 cursor-pointer" type="text"
+        placeholder="Add guest">
       <button class="cursor-pointer shadow-sm/50 rounded-r-lg w-12 flex justify-center items-center ">
         <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="#eb5757" class="size-6">
@@ -74,7 +75,9 @@
               </div>
               <div class="lg:ml-10 flex justify-center items-center w-full pt-[20px] pb-[20px] md:pt-0 md:items-start">
                 <button id="botonEnviar"
-                  class="font-semibold text-white bg-[#eb5757] gap-1 border rounded-3xl w-[150px] h-[50px] flex items-center justify-center">
+                  class="transition-transform duration-300 ease-in-out
+                    hover:scale-105 hover:shadow-lg font-semibold cursor-pointer text-white bg-gradient-to-br from-[#e51d53] to-[#da0964] hover:bg-gradient-to-bl
+                    focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 gap-1 border rounded-3xl w-[150px] h-[50px] flex items-center justify-center">
                   <img class="w-5" src="./src/images/icons/search.svg" alt="">
                   <p>Search</p>
                 </button>
@@ -92,8 +95,14 @@
   <main>
     <section id="alojamientos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center">
 
-
     </section>
+
+    <aside class="fixed flex justify-end pr-5 bottom-5 right-5 z-50 contact" id="contact">
+    
+    </aside>
+
+
+
   </main>
 </body>
 

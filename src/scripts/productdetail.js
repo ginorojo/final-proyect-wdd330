@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (alojamiento && contenedor) {
         contenedor.innerHTML = `
              <div class="flex flex-col pt-5 lg:flex-row justify-center items-start w-[80%] gap-8 lg:pt-20">
-                <img class="w-[100%] max-h-[430px]  md:w-[100%] lg:w-[50%]" src="${
+                <img class="w-[100%] max-h-[430px]  md:w-[100%] lg:w-[50%] object-cover transform transition-transform duration-300 ease-in-out hover:scale-105 " src="${
                   alojamiento.photo
                 }" alt="${alojamiento.title}" />
                 <div class=" w-[100%] md:w-[100%]  lg:w-[50%] flex flex-col gap-4 justify-start items-start">

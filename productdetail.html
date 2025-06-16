@@ -5,8 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/output.css" />
-    <script src="./src/scripts/productdetail.js" type="module" defer></script>
+   
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="./src/scripts/contact2.js" defer ></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <style>
         #map {
@@ -30,17 +31,25 @@
     <title>PF Windbnd Vanilla</title>
 </head>
 
-<body>
+<body class="">   
     <header class="pb-10 pt-5">
         <div class="pb-2.5 pl-7">
             <a href="./index.html"><img src="./src/images/icons/logo-f7862584.svg" alt="Logo" /></a>
         </div>
     </header>
     <section id="productdetail" class="flex justify-center items-center">
+         
+
         <!-- Aquí se mostrarán los detalles del alojamiento -->
     </section>
+    <aside class="flex justify-center lg:pl-60 lg:pt-0 " id="contact"></aside>
+     
+      
+    </aside>
+  
 
-    <div class="pl-[10%] pt-10 flex items-end gap-1">
+
+    <div class="pl-[10%] flex items-end gap-1">
         <h2 class="font-semibold text-3xl">Where to stay</h2>
         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
             <path
@@ -48,10 +57,14 @@
         </svg>
     </div>
 
-    <section class="pb-10 flex flex-col items-center justify-center ">
+    <section class="pb-10 flex flex-col items-center justify-center relative ">
         <div id="map"></div>
 
     </section>
+
+
+ <script src="./src/scripts/productdetail.js" type="module" defer></script>
+   
 </body>
 
 </html>

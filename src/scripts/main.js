@@ -4,6 +4,7 @@ import { ModalManager } from './modalManager.js';
 import { Autocomplete } from './autocomplete.js';
 import { obtenerAlojamientos } from './api.js';
 import { Alojamientos, traerSkeleton } from './alojamientos.js';
+import help from './contact.js'
 
 // DOM Elements
 const contenedor = document.querySelector("#alojamientos");
@@ -69,3 +70,5 @@ botonEnviar.addEventListener("click", async function () {
     ciudadMostrar.textContent = "";
   }
 });
+
+help()
