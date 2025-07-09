@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const id = params.get("id");
   const contenedor = document.querySelector("#productdetail");
 
-  fetch("https://mocki.io/v1/644ce2c2-3bf1-4b2f-b2cd-07b9dd902273")
+  fetch("https://mocki.io/v1/8b7f80d6-ce5c-42c2-a1da-0cbd4ec506d6")
     .then((response) => response.json())
     .then((result) => {
       const alojamientos = result || [];
